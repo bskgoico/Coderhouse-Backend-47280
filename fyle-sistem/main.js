@@ -18,4 +18,7 @@ if(fs.existsSync('./ejemplo.txt')) {
 
     // Eliminar txt
     //fs.unlinkSync('./ejemplo.txt');
-}
+};
+
+// Callbacks
+
