@@ -27,7 +27,7 @@ fs.writeFile("./ejemplo.txt", "Hola mundo", (error) => {
   if (error) return "Error en escritura de archivo";
   fs.readFile("./ejemplo.txt", "utf-8", (error, resultado) => {
     if (error) return "Error en lectura de archivo";
-    console.log(error);
+    console.log(resultado);
     fs.appendFile("./ejemplo.txt", "\nAdios", (error) => {
       if (error) return "Error al modificar archivo";
       fs.unlink("./ejemplo.txt", (error) => {
