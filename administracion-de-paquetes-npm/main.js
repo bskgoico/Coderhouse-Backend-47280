@@ -17,6 +17,14 @@ a código maquina para poder ser procesado correctamente.
 Además, cuenta con muchas funcionalidades internas del mismo lenguaje gracias a sus ajustes con ECMAScript.
 
 
+MODULOS NATIVOS DE NODE JS
+
+Conforme necesitmaos programas mas complejos necesitamos operaciones mas complejas y conforme operaciones mas
+complejas necesitamos herramientas mas utiles.
+
+Es por eso que desed que instalamos Nodejs en nuestro computador, contamos ya con una serie de modulos nativos
+para poder resolver este tipo de tareas de manera eficiente y sin tener que reprogramar todo (no reinventar la rueda)
+
 
 
 */
