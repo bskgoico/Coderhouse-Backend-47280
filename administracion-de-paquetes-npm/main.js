@@ -26,5 +26,13 @@ Es por eso que desed que instalamos Nodejs en nuestro computador, contamos ya co
 para poder resolver este tipo de tareas de manera eficiente y sin tener que reprogramar todo (no reinventar la rueda)
 
 
+fs --> para manejo de archivos
+
+ctypto ---> seguridad de datos
+
+http ---> para crear servidores solicitud / respuesta
+
+path ---> para evitar ambiguedad al trabajar con rutas
+
 
 */
