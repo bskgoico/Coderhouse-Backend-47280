@@ -18,6 +18,10 @@ const app = express();
 
 const PORT = 4000;
 
+
+//Para poder ejecutar queries complejas
+app.use(express.urlencoded({ extended: true }))
+
 //array de productos
 const products = [
   {
