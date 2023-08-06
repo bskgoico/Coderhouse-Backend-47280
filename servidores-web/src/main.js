@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
     res.send("Hola desde el sur")
 })
 
+app.get('*', (req, res) => {
+    res.send("Error 404")
+})
+
 app.listen(PORT, () => {
     console.log(`Server on port ${PORT}`)
 })
