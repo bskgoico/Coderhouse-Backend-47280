@@ -31,3 +31,5 @@ app.listen(PORT, () => {
 })
 
 //Hasta aca hicimos un servidor basico con express
+
+// req.params se definen en una ruta con el simbolo de dos puntos ":"
