@@ -17,6 +17,10 @@ app.post('/users', async (req, res) => {
     res.send("Usuario creado")
 })
 
+app.get('*', (req, res) => {
+    res.send("Error 404")
+})
+
 app.listen(PORT, () => {
     console.log(`Server on port ${PORT}`)
 })
