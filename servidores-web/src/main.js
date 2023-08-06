@@ -13,4 +13,15 @@ server.listen(PORT, () => {
 
 import express from 'express';
 
+// app va a poder ejecutar todos los metodos de express
 const app = express()
+
+const PORT = 4000
+
+app.get('/', (req, res) => {
+    res.send("Hola desde la pagina de inicio de mi app")
+})
+
+app.listen(PORT, () => {
+    console.log(`Server on port ${PORT}`)
+})
