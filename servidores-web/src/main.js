@@ -3,7 +3,7 @@ import http from 'http'; // o import * as http from 'http
 const PORT = 4000
 //req = request y res = response
 const server = http.createServer((req, res) => {
-    res.end("Hola, buenas tardes")
+    res.end("Hola, buenos dias")
 })
 
 //arrancar mi servidor
