@@ -19,9 +19,11 @@ const app = express()
 const PORT = 4000
 
 app.get('/', (req, res) => {
-    res.send("Hola desde la pagina de inicio de mi app")
+    res.send("Hola desde el sur")
 })
 
 app.listen(PORT, () => {
     console.log(`Server on port ${PORT}`)
 })
+
+//Hasta aca hicimos un servidor basico con express
