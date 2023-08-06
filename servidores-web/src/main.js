@@ -35,6 +35,11 @@ const products = [
     id: 3,
     category: "Lacteos",
   },
+  {
+    name: "Yogurt",
+    id: 4,
+    category: "Lacteos",
+  },
 ];
 
 app.get("/", (req, res) => {
@@ -47,6 +52,13 @@ app.get("/products/:id", (req, res) => {
   if (prod) res.send(prod);
   res.send("Producto no encontrado");
 });
+
+app.get('/products', (req, res) => {
+    const { category } = req.query
+    const prods = products.filter(prod => prod.category === category);
+
+    res.send(prods)
+})
 
 //La ruta de 404 tiene que ir a lo ultimo
 app.get("*", (req, res) => {
